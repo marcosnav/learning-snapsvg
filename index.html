@@ -2,11 +2,45 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
 	<title>Learning Snap SVG</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="Snap.svg/dist/snap.svg-min.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
+	<h1>TESTING THE SNAP.SVG JAVASCRIPT LIBRARY</h1>
 
+	<section id="testing-area">
+		<img src="images/the-blur.jpg" alt="the-blur">
+		
+		<!-- UNDERSTANDING SVG AND POLYGON TAGS -->
+		<svg id="diamond">
 	
+			<g>
+				<!-- DIAMOND BACKGROUND TO COVER THE JOINING LINES-->
+				<polygon fill="#4EA2FF" points="100,100 150,60 270,60 320,100 210,220"/>
+
+				<!-- DIAMOND PARTS #4EA2FF #4690E4 #3F82CD #356EAD #2C5B90-->
+				<polygon fill="#4EA2FF" points="100,100 150,60 180,100"/>
+				<polygon fill="#4690E4" points="150,60 210,60 180,100"/>
+				<polygon fill="#3F82CD" points="210,60 240,100 180,100"/>
+				<polygon fill="#356EAD" points="210,60 270,60 240,100"/>
+				<polygon fill="#2C5B90" points="270,60 320,100 240,100"/>
+
+				<polygon fill="#4690E4" points="100,100 180,100 210,220"/>
+				<polygon fill="#2C5B90" points="180,100 240,100 210,220"/>
+				<polygon fill="#1F4169" points="240,100 320,100 210,220"/>
+			</g>
+
+		</svg>
+
+		<svg id="marcos-logo">
+			
+		</svg>	
+
+	</section>
 	
 </body>
 </html>

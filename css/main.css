@@ -1,0 +1,6 @@
+body{font-size:16px;line-height:20px}
+h1{color:#98d5bb;line-height:2em;margin:20px 0;position:relative;text-align:center;text-shadow:2px 2px 0 #7eb29c}
+#testing-area{height:500px;overflow:hidden;position:relative;width:100%;}
+#testing-area #diamond{display:inline-block;position:relative;vertical-align:top;width:500px;z-index:10}
+#testing-area img{left:0;position:absolute;top:0}
+#testing-area #marcos-logo{display:inline-block;position:relative;vertical-align:top;width:500px;z-index:10}
